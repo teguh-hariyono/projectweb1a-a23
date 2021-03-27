@@ -1,9 +1,19 @@
 /* Reset CSS (JANGAN DIHAPUS) */
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p,
-
-form, input, div {
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+input,
+div {
   margin: 0;
   padding: 0;
 }
@@ -12,7 +22,6 @@ body {
   margin: 0;
   font-family: "Arial";
 }
-
 
 li {
   list-style: none;
@@ -24,21 +33,21 @@ li {
   margin: 0 auto;
 }
 
-.top-wrapper{
+.top-wrapper {
   padding: 150px 0px 20px 0px;
-  background-image:url(topheader2.png);
+  background-image: url(topheader2.png);
   background-size: 100% 100%;
   background-color: #0abde3;
   text-align: center;
 }
 
-.container h1{
-  font-size:30px;
+.container h1 {
+  font-size: 30px;
   color: yellow;
 }
-.container h2{
+.container h2 {
   font-size: 20px;
-  color:white;
+  color: white;
 }
 
 header {
@@ -53,18 +62,17 @@ header {
 .header-logo {
   float: Left;
   font-size: 36px;
-  font-family:"Arial Black";
+  font-family: "Arial Black";
   color: #eb2f06;
   padding: 10px 20px;
   background-color: #2e86de;
 }
-.header-list li{
-  float:right;
-  color:white;
+.header-list li {
+  float: right;
+  color: white;
   padding: 30px;
   background-color: #2e86de;
 }
-
 
 .lesson-wrapper {
   height: 500px;
@@ -80,17 +88,21 @@ header {
 }
 .heading h1 {
   font-weight: normal;
-  color:blue;
+  color: blue;
 }
 
 .lesson {
   float: left;
-  width: 25%;
+  width: 20%;
 }
 
 @keyframes example {
-  from {font-size: 5px;}
-  to {font-size: 15px;}
+  from {
+    font-size: 5px;
+  }
+  to {
+    font-size: 15px;
+  }
 }
 
 .lesson-icon {
@@ -124,13 +136,13 @@ header {
 .footer-logo {
   float: left;
   font-size: 26px;
-  font-family:"Arial Black";
-  color:#1e3799;
+  font-family: "Arial Black";
+  color: #1e3799;
 }
 .footer-list {
   float: right;
 }
 .footer-list li {
-	list-style-type: none;
-	color:#341f97;
+  list-style-type: none;
+  color: #341f97;
 }
