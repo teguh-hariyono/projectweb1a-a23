@@ -113,10 +113,10 @@ header {
 }
 
 .lesson-icon p {
-  position: absolute;
+  position: bottom;
   top: 90px;
   width: 100%;
-  color: white;
+  color: red;
 }
 
 .txt-contents {
