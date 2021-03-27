@@ -85,7 +85,7 @@ header {
 
 .lesson {
   float: left;
-  width: 33%;
+  width: 25%;
 }
 
 @keyframes example {
@@ -118,7 +118,7 @@ header {
 
 .footer {
   background-color: #48dbfb;
-  height: 50px;
+  height: 70px;
   padding: 10px;
 }
 .footer-logo {
