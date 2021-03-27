@@ -88,8 +88,17 @@ header {
   width: 33%;
 }
 
+@keyframes example {
+  from {font-size: 5px;}
+  to {font-size: 15px;}
+}
+
 .lesson-icon {
   position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 10;
+  animation-direction: alternate;
 }
 
 .lesson-icon p {
