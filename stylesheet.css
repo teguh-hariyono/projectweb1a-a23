@@ -127,7 +127,6 @@ header {
 .txt-contents {
   width: 80%;
   display: inline-block;
-  margin-top: 20px;
   font-size: 15px;
   color: blue;
 }
@@ -150,3 +149,17 @@ header {
   list-style-type: none;
   color: #341f97;
 }
+
+span.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display:none;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+
