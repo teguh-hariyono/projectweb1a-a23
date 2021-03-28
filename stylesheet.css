@@ -28,7 +28,6 @@ li {
 }
 
 .container {
-  width: 1170px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -119,10 +118,10 @@ header {
 }
 
 .lesson-icon p {
-  position: absolute;
+  position: bottom;
   top: 90px;
   width: 100%;
-  color: white;
+  color: red;
 }
 
 .txt-contents {
